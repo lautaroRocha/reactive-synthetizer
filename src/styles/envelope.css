@@ -1,0 +1,11 @@
+.envelope{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+    transform: scale(.9);
+    margin-top: -2rem;
+  }
+  .envelope>label{
+    width: 100%;
+  }

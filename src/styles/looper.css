@@ -1,0 +1,14 @@
+.looper{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .looper>button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: yellow;
+  }
+  

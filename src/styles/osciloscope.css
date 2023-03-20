@@ -1,0 +1,14 @@
+canvas{
+    width: 80% !important;
+    height: 10rem !important;
+    border: solid 2px #00FF00;
+    padding: 1rem;
+    max-width: 300px;
+    background-color: black;
+  }
+
+  @media(min-width:600px){
+    canvas{
+      width: 50% !important;
+    }
+  }

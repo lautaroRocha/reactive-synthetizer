@@ -1,0 +1,30 @@
+.wave-selector{
+    transform: scale(.8);
+  }
+
+  ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    transform: scale(.8);
+  }
+  ul>li{
+    border: 2px solid #ffff00;
+    display: grid;
+    place-items: center;
+  }
+  ul>li>img{
+    width: 80%;
+    height: auto;
+    filter: invert(50%);
+    caret-color: transparent;
+    pointer-events: none;
+  }
+  
+  ul>li:first-of-type>img{
+    transform: scale(.7);
+  }
+  
+.selected{
+    background-color: rebeccapurple;
+}

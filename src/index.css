@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  max-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(0, 0%, 14%);
+  display: flex;
+  flex-direction: column;
+}
+
+
+body {
+  min-height: 100vh;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+
+
