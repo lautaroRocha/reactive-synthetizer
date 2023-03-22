@@ -3,18 +3,29 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem;
+  max-height: 95vh;
+  width: 80%;
+  margin: auto;
+  max-width: 1500px;
+  border: 5px solid red;
 }
+
 .top{
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
-  }
+    height: fit-content;
+    padding: .5rem;
+}
   
   .bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
+    padding: 1rem;
   }
 
   @media(min-width:600px){
