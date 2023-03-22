@@ -1,12 +1,14 @@
 .wave-selector{
-    transform: scale(.8);
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
   }
-
   ul{
     display: flex;
     list-style: none;
     gap: 1rem;
-    transform: scale(.8);
+    height: fit-content;
+    width: 100%;
   }
   ul>li{
     border: 2px solid #ffff00;
@@ -27,4 +29,11 @@
   
 .selected{
     background-color: rebeccapurple;
+}
+
+@media(min-width:600px){
+  .wave-selector{
+    width: 70%;
+    margin: auto;
+  }
 }
